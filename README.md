@@ -19,7 +19,16 @@ If you are totally a beginner, follow these instructions so that you can run my 
 - Run the following command to clone the repository
 ```git clone https://github.com/MSH4R1F/IML_CWK1```
 
-#### 4. Install the required packages
+#### 4. Setup the virtual environment
+- Navigate to the directory where you cloned the repository
+- Run the following command to create a virtual environment
+```python -m venv venv```
+- Run the following command to activate the virtual environment
+```venv\Scripts\activate```
+- If you are using a Mac or Linux, run the following command to activate the virtual environment
+```source venv/bin/activate```
+- Every time you want to run the code, make sure to activate the virtual environment first
+#### 5. Install the required packages
 - Run the following command to install the required packages
 ```pip install -r requirements.txt```
 - If pip doesn't work, try using pip3
