@@ -61,11 +61,11 @@ To get the evaluation metrics for your dataset, follow these steps:
 3. Navigate to the directory where your training dataset files are located.
 4. Run the following command, replacing `path/to/dataset1.txt` and `path/to/dataset2.txt` with the actual paths to your training dataset files:
     ```bash
-    python decision_tree_evaluation.py path/to/dataset1.txt path/to/dataset2.txt
+    python evaluation.py path/to/dataset1.txt path/to/dataset2.txt
     ```
 5. If you only have one dataset file, run the following command instead, replacing `path/to/dataset.txt` with the actual path to your training dataset file:
     ```bash
-    python decision_tree_evaluation.py path/to/dataset.txt
+    python evaluation.py path/to/dataset.txt
     ```
 6. The evaluation metrics will be printed in the terminal, they may take a few seconds to compute
 
